@@ -1,6 +1,21 @@
 //tag::ref-doc[]
 = Time Source
+
 The time source will simply emit a String with the current time every so often.
+
+== Input
+
+N/A
+
+== Output
+
+==== Headers:
+
+* `Content-Type: text/plain`
+
+==== Payload:
+
+A `String` with the time output.
 
 == Options
 
@@ -20,6 +35,17 @@ $$trigger.time-unit$$:: $$The TimeUnit to apply to delay values.$$ *($$TimeUnit$
 == Build
 
 ```
-$ mvn clean package
+$ ./mvnw clean install -PgenerateApps
+$ cd apps
+
+You can find the corresponding binder based projects here. You can then cd into one one of the folders and
+build it:
+
+$ ./mvnw clean package
 ```
 
+== Examples
+
+```
+java -jar time-source.jar
+```
