@@ -37,10 +37,10 @@ $$trigger.time-unit$$:: $$The TimeUnit to apply to delay values.$$ *($$TimeUnit$
 ```
 $ ./mvnw clean install -PgenerateApps
 $ cd apps
-
+```
 You can find the corresponding binder based projects here. You can then cd into one one of the folders and
 build it:
-
+```
 $ ./mvnw clean package
 ```
 
