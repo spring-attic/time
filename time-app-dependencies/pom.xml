@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework.cloud.stream.app</groupId>
     <artifactId>time-app-dependencies</artifactId>
-    <version>1.3.0.BUILD-SNAPSHOT</version>
+    <version>1.3.0.RC1</version>
     <packaging>pom</packaging>
     <name>time-app-dependencies</name>
     <description>Spring Cloud Stream Time App Dependencies</description>
@@ -19,7 +19,7 @@
             <dependency>
                 <groupId>org.springframework.cloud.stream.app</groupId>
                 <artifactId>spring-cloud-starter-stream-source-time</artifactId>
-                <version>1.3.0.BUILD-SNAPSHOT</version>
+                <version>1.3.0.RC1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
