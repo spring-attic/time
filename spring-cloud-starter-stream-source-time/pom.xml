@@ -56,9 +56,6 @@
 						<time-source/>
 					</generatedApps>
 					<enableContainerImageMetadata>true</enableContainerImageMetadata>
-					<metadataSourceTypeFilters>
-						<filter>org.springframework.cloud.stream.app.trigger.TriggerPropertiesMaxMessagesDefaultOne</filter>
-					</metadataSourceTypeFilters>
 				</configuration>
 			</plugin>
 		</plugins>
